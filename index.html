@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href='https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css' rel='stylesheet' />
+    </head>
+    <body>
+        <audio id="myAudio">
+            <source src="/mapbox-01/final-oppgave/pictures/Game of Thrones - Main Theme (Extended) HD.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+        <header>
+         
+        </header>
+        <div id="buttons">
+            <button class="knapper" data-stil="mapbox/satellite-streets-v11">Satelitt</button>
+            <button class="knapper" data-stil="pederwinge/ck56phhxt0isi1cpgiem8r9ma">GoT Mode</button>
+
+            <button id="play" class="knapper" onclick="play()" type="button">Mood on </button>
+            <button id="pause" class="knapper" onclick="pause()" type="button">Mood off</button>
+        </div>
+        <main>
+           
+            <nav id="nav">
+                <article data-lng="18.109361" data-lat="42.640872">
+                    <h1>Kings Landing</h1>
+                    <p>
+                        King's Landing is the capital, and largest city, of the Seven Kingdoms. Located on the east coast of Westeros in the Crownlands, just north of where the Blackwater Rush flows into Blackwater Bay and overlooking Blackwater Bay, King's Landing is the site of the Iron Throne and the Red Keep, the seat of the King of the Andals and the First Men (hence the name). It enjoys a warm climate and life there is luxurious for those that can afford it, although it is not without its slums such as Flea Bottom. The city is overpopulated and dangerous at the best of times, despite being policed by the City Watch.
+                    </p>
+                    
+                </article>
+                <article data-lng="15.899861" data-lat="43.720909">
+                    <h1>Bravos</h1>
+                    <p>
+                        In the A Song of Ice and Fire novels, Bravos are young swordsmen that prowl the city of Braavos during the night. They dress in brightly colored finery and actively seek out fights to prove their skills. Most will fight with little cause, such as a man's opinion on who is the city's most beautiful courtesan, and some with no cause at all. Anyone carrying a sword after dark in Braavos can be challenged to a duel. Simply placing a finger on your sword while facing a bravo is akin to challenging them.
+                    </p>
+                    
+                </article>
+                <article data-lng="-5.990483" data-lat="37.383171">
+                    <h1>Palace of Dorne</h1>
+                    <p>
+                        The Water Gardens is a palace in Dorne that serves as a private residence to House Martell of Sunspear, the rulers of Dorne. It is located on the coast a short distance down the road from Sunspear itself.
+                    </p>
+                </article>
+                <article data-lng="-6.381122" data-lat="55.134773">
+                    <h1>Road to Kings Landing</h1>
+                    <p>One of the most iconic settings of 'Game of Thrones,' The King’s Road is the longest road in the Seven Kingdoms, running from the Wall at Castle Black all the way to King’s Landing. The real-life setting of the road is the mysterious Dark Hedges of Gracehill House in Ballymoney, Co. Antrim.   </p>
+                </article>
+                <article data-lng="-21.129603" data-lat="64.255906">
+                    <h1>North Of Westeros</h1>
+                    <p>The north or the North is one of the constituent regions of Westeros and was a sovereign nation ruled by Kings in the North before Aegon's Conquest. ... The north has been ruled by the Starks for thousands of years from the castle known as Winterfell.</p>
+                </article>
+                <article data-lng="-4.778156776579294" data-lat="37.87669610474086">
+                    <h1>Long Bridge of Volantis</h1>
+                    <p>The Long Bridge is a great structure located in the Free City of Volantis. It is a bridge spanning the mouth of the immense Rhoyne River just before it spills into the Summer Sea.
+
+                        The bridge is so large that it is covered in rows of multi-level buildings, taverns, brothels, and marketplaces, forming a small neighborhood of the city unto itself.</p>
+                </article>
+                <article data-lng="-5.578780290093988" data-lat="54.37296732993201">
+                    <h1>Winterfell</h1>
+                    <p>Winterfell is the capital of the Kingdom of the North and the seat and the ancestral home of the royal House Stark. It is a very large castle located at the center of the North, from where the head of House Stark rules over his or her people. A small godswood is enclosed within the walls. The castle is located alongside the Kingsroad as it makes its way from the Wall to the capital of the Six Kingdoms, King's Landing, more than a thousand miles to the south. It is situated atop hot springs which keep the castle warm even in the worst winters.[1] Winding tombs below the castle contain the remains of Stark kings and lords and record the history of the ancient family. According to Maester Luwin, there are hidden passageways built in the castle so its Lords could escape. The castle has stood for millennia.</p>
+                </article>
+                <article data-lng="16.522608" data-lat="43.559775">
+                    <h1>Meereen</h1>
+                    <p>Meereen is the northernmost and greatest of the three great city-states of Slaver's Bay, north of Yunkai and Astapor. It is located at the mouth of the Skahazadhan River, which flows from its origins in Lhazar through the mountains separating Meereen and the rest of Slaver's Bay from the Red Waste. The Dothraki Sea lies to the north, beyond the river. The wealthiest residents live in pyramids.
+
+                    People and things from Meereenare known as "Meereenese".</p>
+                </article>
+                <article data-lng="-7.132273" data-lat="31.045837">
+                    <h1>Yunkai and Pentos</h1>
+                    <p>Yunkai, also called the Yellow City, is one of the Slaver Cities on the eastern coast of Slaver's Bay in central Essos. Ruled by the Wise Masters, Yunkai's main export is bed slaves
+
+                    Pentos is a port located on the eastern coast of the Bay of Pentos. He later became the first Lord of the Seven Kingdoms through Aegon's Conquest. ... in Meereen when Quentyn reveals that Meris had not deserted Yunkai as she had claimed.
+                    </p>
+                </article>
+                <article data-lng="-6.129513" data-lat="55.213991">
+                    <h1>Iron Island</h1>
+                    <p>The Iron Islands is one of the nine constituent regions of Westeros. They are a cluster of seven small, rocky islands off the western coast of the continent, in Ironman's Bay. The Iron Islands are ruled from the castle of Pyke by House Greyjoy.</p>
+                </article>
+                <article data-lng="-9.772335" data-lat="31.512820">
+                    <h1>Astapor</h1>
+                    <p>Astapor, also known as the Red City, is the southernmost of the three great city-states of Slaver's Bay. A noted stopping point for ships bound from Qarth to the Free Cities and Westeros, Astapor is home of the infamous Unsullied, eunuch slave-soldiers considered by many to be the finest infantry troops in the World.</p>
+                </article>
+                <article data-lng="-16.883020" data-lat="65.626227">
+                    <h1>Thermal Spring</h1>
+                    <p>The site of Jon Snow and his wildling love's sexual encounter is a lot less steamy without them, don't you think?</p>
+                </article>
+                <article data-lng="-5.108415" data-lat="37.242080">
+                    <h1>Danzaks Pit</h1>
+                    <p>The Great Pit of Daznak or Daznak's Pit is the preeminent fighting pit of Meereen, the greatest of the three city-states of Slaver's Bay. It is one of the arenas in which the Great Games are celebrated, the city's traditional fighting season.</p>
+                </article>
+                <article data-lng="-6.042857" data-lat="55.125755">
+                    <h1>The Stormlands Caves</h1>
+                    <p>The caves at Cushendun were formed over a period of 400 million of years and are a product of extreme weather conditions. They can be found just beyond this beautiful coastal village next to the Cave House.</p>
+                </article>
+                <article data-lng="-6.810883" data-lat="55.167772">
+                    <h1>The Burning of the seven</h1>
+                    <p>Beliefs. The Faith holds that there is one god who has seven faces or aspects: the Father, the Mother, the Maiden, the Crone, the Warrior, the Smith, and the Stranger. Each aspect represents one part of life or existence. Catelyn Stark's homemade prayer wheel, depicting effigies of the Seven.</p>
+                </article>
+                <article data-lng="-5.990440" data-lat="37.383129">
+                    <h1>Palace of Dorne garden</h1>
+                    <p>Water Gardens of Dorne
+                        In the fifth season of HBO’s hit TV show "Game of Thrones", The Alcázar of Seville (700 year old former royal palace in Spain) began to use for the Water Gardens in the fictional city of Sunspear, seat of the House Martell and capital of Dorne.</p>
+                </article>
+                <article data-lng="-6.062125" data-lat="55.079676">
+                    <h1>Dothraki Sea</h1>
+                    <p>Ulthos. The Dothraki Sea is a region on the continent of Essos. Located in the continental interior, east of the Free Cities, it is a vast landscape of steppes and plains covered in low green grass which makes it look like a sea from afar.</p>
+                </article>
+                <article data-lng="-5.939528" data-lat="54.224279">
+                    <h1>Forest in the north</h1>
+                    <p>The Wolfswood is a forest in the North. It is located just north of Winterfell and extends for some three hundred miles north and west to the Bay of Ice. Along the northwestern edge of the Wolfswood lies the largest ironwood forest in Westeros.</p>
+                </article>
+                <article data-lng="14.403609" data-lat="35.886441">
+                    <h1>The Kings Landing gate</h1>
+                    <p>The King's Gate is one of the seven huge gates that surround the huge walls of King's Landing. It is by the southern corner of the southwest wall, connecting the western end of the River Row to the tourney grounds outside the city's wall by the Blackwater Rush. There is a sally port in it, and a stable near it.</p>
+                </article>
+                <article data-lng="-17.019508" data-lat="65.614478">
+                    <h1>North of the wall</h1>
+                    <p>The region immediately north of the Wall includes the Haunted Forest, a vast taiga-forest which covers most of the area, extending from the Wall to the furthest uncharted north.</p>
+                </article>
+                <article data-lng="-6.351162" data-lat="55.241127">
+                    <h1>The Stormlands</h1>
+                    <p>The Stormlands is one of the nine constituent regions of the Seven Kingdoms. The Stormlands are traditionally ruled from the castle of Storm's End, formerly by House Baratheon. They are so-named for the savage and frequent storms from the Narrow Sea that batter the coast.</p>
+                </article>
+                <article data-lng="14.526334" data-lat="35.897314">
+                    <h1>The Red Keep fort</h1>
+                    <p>If you’ve watched Game of Thrones, you’ll recognise Fort Lovrijenac as the Red Keep in the Seven Kingdoms capital, King’s Landing. Numerous scenes were shot here, including one in the first episode of season 3, when Tyrion, Podrick and Bronn are seen on the walls following the battle of Blackwater. You’ll also spot it in season two, as the tournament held on King Joffrey’s name day was filmed here, too.</p>
+                </article>
+                <article data-lng="18.101139" data-lat="42.640781">
+                    <h1>The Red Keep castle</h1>
+                    <p>Lovrijenac Fortress (The Red Keep)
+                        The Red Keep – the heart of King's Landing – is, in the real world, Lovijenac Fortress, located outside Dubrovnik on a 37m high rock right on the shore.</p>
+                </article>
+                <article data-lng="14.446107" data-lat="35.896643">
+                    <h1>The Red keep Palace</h1>
+                    <p>The Red Keep, a castle succeeding the Aegonfort, is the residence of the King of the Andals and the First Men, his family and his court, located within King's Landing, the capital of the Six Kingdoms. It dominates the skyline of the city, and serves as the city's primary fortress and redoubt. It also houses the government of the Six Kingdoms.</p>
+                </article>
+                <article data-lng="17.694691" data-lat="42.837760">
+                    <h1>Kings Landing Ston</h1>
+                    <p>King’s Landing instilled fear and awe in its enemies with its mighty walls that annihilated the largest of fleets and made the most persistent armies in the Seven Kingdoms give up. This impenetrable rampart in the Game of Thrones was depicted by 5,5 kilometres long Walls of Ston, a city on the Pelješac Peninsula, an hour’s drive away from Dubrovnik. Walk down the longest preserved fortification system in the world, after the Great Wall of China, and feel powerful like many rulers of Westeros. Lastly, a tiny spoiler, the impressive walls were not built for the purposes of the series. They have existed here since the XIV century.</p>
+                </article>
+                <article data-lng="14.505248" data-lat="35.903062">
+                    <h1>Great Sept of Baelor</h1>
+                    <p>The Great Sept of Baelor, also called the Great Sept or just the Sept of Baelor, was a massive sept, the center of religious worship for the Faith of the Seven and the seat of the High Septon of the Faith. It was located in King's Landing, the capital of the Seven Kingdoms, and was the largest single building in the city, though the Red Keep complex sprawls over a larger area. Great religious ceremonies were held there. It was also the sept personally used by the royal family, thus royal weddings were held at the Great Sept in massive ceremonies.</p>
+                </article>
+                <article data-lng="14.518608" data-lat="35.901117">
+                    <h1>Sowbelly Row</h1>
+                    <p>Sowbelly Row is an area of King's Landing. Lollys Stokeworth was found wandering naked by gold cloaks on Sowbelly Row after the riot of King's Landing.</p>
+                </article>
+        
+            </nav>
+             
+            
+           
+            <div id="boble">
+                <p>WINTER IS COMING!</p>
+                <p>While we wait we can check out the locations we filmed Game of Thrones!</p>
+                <p>To navigate where you wanna visit scroll, and click the menu on the left</p>
+                <p>press the buttons over the map to change the view, and the mood buttons to get in the Mood!</p>
+            </div>
+            <img id="bilde" src="/mapbox-01/final-oppgave/pictures/IMGBIN_sean-bean-a-game-of-thrones-eddard-stark-jon-snow-png_zK35RU0R.png">
+           
+            
+            <div id="map"></map>
+                
+                
+        
+        </main>
+        <div id="container">chart</div>
+      
+        
+        <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+        <script src="./index.js"></script>
+
+        <script src="https://code.highcharts.com/highcharts.js"></script>
+
+        <script src="chart.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+    </body>
+</html>

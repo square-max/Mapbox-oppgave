@@ -1,0 +1,156 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+    
+}
+
+body{
+    width: 100vw;
+    
+}
+
+header {
+    height: 20vh;
+
+    background-image: url("/mapbox-01/final-oppgave/pictures/game-of-thrones.svg");
+    background-position-x: 15rem;
+    background-repeat: no-repeat;
+  
+
+
+}
+
+#buttons {
+    left:500px;
+    top: 128px;
+    position: absolute;
+}
+
+#map {
+    z-index: -10;
+ 
+}
+
+main {
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 0rem;
+    overflow: hidden;
+    
+  
+}
+
+h1 {
+    font-size: 1rem;
+    pointer-events: none;
+    color: tan;
+    font-weight: 1000;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-top: 0;
+    pointer-events: none;
+}
+
+nav {    
+    overflow: auto;
+    background-color: white;
+    padding: 1rem;
+    
+}
+
+
+nav article {
+
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+
+    
+}
+
+
+
+nav article:nth-child(even) {
+    background-color: grey;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.knapper {
+   border-radius: 30px; 
+   background-color: black;
+   color: tan   ;
+   padding: 0.2rem;
+   margin-left: 4rem;
+   width: 8rem;
+} 
+
+.knapper:hover {
+    background-color: rgb(190, 146, 34);
+    color: black;
+    transform: scale(1.1);
+}
+
+article:hover {
+    text-decoration-line: underline;
+   text-decoration-color: tan;
+}
+
+
+
+h1:hover {
+
+color: goldenrod;
+}
+
+#play {
+    background-color: rgb(19, 99, 19);
+}
+
+#pause {
+    background-color: rgb(185, 37, 37);
+}
+
+#bilde {
+    width: 15%;
+    position: fixed;
+  right:1rem;
+  bottom:1rem;
+    z-index: 1;
+    
+    
+}
+
+#boble {
+    position: absolute;
+    height: 170px;
+    width: 250px;
+    background-color: white;
+    border-radius: 35%;
+    text-align: center;
+   right: 1rem;
+   bottom:15rem;
+   font-size: 12px;
+   opacity: 0;
+
+}
+
+#boble p {
+    color: black;
+    padding: 2px;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 700;
+   
+}
